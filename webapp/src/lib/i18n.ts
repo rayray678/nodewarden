@@ -753,13 +753,13 @@ messages.en.txt_select_folder_placeholder = '-- Select folder --';
 messages.en.txt_import_vault_data_hint = 'Import vault data into your current account.';
 messages.en.txt_export_vault_data_hint = 'Export vault data from your current account.';
 messages.en.txt_import_export_title = 'Import & Export';
-messages.en.txt_import_export_feature_intro = 'Move your vault across clients with full compatibility, including attachments and encrypted formats.';
+messages.en.txt_import_export_feature_intro = 'Provides standardized vault migration across clients, including attachment-aware and encrypted workflows.';
 messages.en.txt_import_export_feature_bw_zip_title = 'Bitwarden vault + attachments ZIP';
-messages.en.txt_import_export_feature_bw_zip_desc = 'Supports importing and exporting Bitwarden ZIP archives that include vault data and attachments.';
+messages.en.txt_import_export_feature_bw_zip_desc = 'Supports both import and export for Bitwarden ZIP archives containing vault data and attachments.';
 messages.en.txt_import_export_feature_nodewarden_json_title = 'NodeWarden vault + attachments JSON';
-messages.en.txt_import_export_feature_nodewarden_json_desc = 'Supports NodeWarden JSON import/export with vault data and attachments bundled in one file.';
+messages.en.txt_import_export_feature_nodewarden_json_desc = 'Supports NodeWarden JSON import/export with vault and attachment payloads in a single document. Exported vault data remains importable by Bitwarden clients.';
 messages.en.txt_import_export_feature_compat_title = 'Cross-client compatibility';
-messages.en.txt_import_export_feature_compat_desc = 'Supports Bitwarden JSON/CSV import and mainstream migration formats for a smooth move-in.';
+messages.en.txt_import_export_feature_compat_desc = 'Supports Bitwarden JSON/CSV and mainstream migration formats with consistent field normalization and import mapping.';
 messages.en.txt_encrypted_mode = 'Encrypted mode';
 messages.en.txt_account_verification = 'Account verification';
 messages.en.txt_password_verification = 'Password verification';
@@ -827,13 +827,13 @@ zhCNOverrides.txt_import_encrypted_zip_title = '导入加密 ZIP';
 zhCNOverrides.txt_import_encrypted_zip_message = '该 ZIP 压缩包已加密，请输入 ZIP 密码继续。';
 
 zhCNOverrides.txt_import_export_title = '导入导出';
-zhCNOverrides.txt_import_export_feature_intro = '兼容主流客户端的数据迁移流程，支持附件与加密格式，导入导出一步完成。';
+zhCNOverrides.txt_import_export_feature_intro = '提供标准化的数据迁移能力，覆盖附件与加密场景。';
 zhCNOverrides.txt_import_export_feature_bw_zip_title = 'Bitwarden 密码库 + 附件 ZIP';
-zhCNOverrides.txt_import_export_feature_bw_zip_desc = '支持导入和导出包含密码库与附件的 Bitwarden ZIP 压缩包。';
+zhCNOverrides.txt_import_export_feature_bw_zip_desc = '支持导入与导出包含密码库和附件的 Bitwarden ZIP 压缩包。';
 zhCNOverrides.txt_import_export_feature_nodewarden_json_title = 'NodeWarden 密码库 + 附件 JSON';
-zhCNOverrides.txt_import_export_feature_nodewarden_json_desc = '支持 NodeWarden 自研 JSON 导入导出，一个文件同时包含密码库和附件。';
+zhCNOverrides.txt_import_export_feature_nodewarden_json_desc = '支持 NodeWarden JSON 导入导出，单文件包含密码库与附件；导出的密码库数据可被 Bitwarden 客户端导入。';
 zhCNOverrides.txt_import_export_feature_compat_title = '跨客户端兼容';
-zhCNOverrides.txt_import_export_feature_compat_desc = '支持 Bitwarden JSON/CSV 导入及主流迁移格式，降低迁移门槛。';
+zhCNOverrides.txt_import_export_feature_compat_desc = '支持 Bitwarden JSON/CSV 与主流迁移格式，统一字段映射与导入行为。';
 
 messages['zh-CN'] = { ...messages.en, ...zhCNOverrides };
 
